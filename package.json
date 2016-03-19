@@ -1,0 +1,26 @@
+{
+  "name": "movie-cli",
+  "version": "1.0.0",
+  "description": "A CLI for getting information about a movie and comparing two movies",
+  "bin": {
+    "movie": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mayankchd/movie-cli.git"
+  },
+  "author": "Mayank <imayankchd@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mayankchd/movie-cli/issues"
+  },
+  "homepage": "https://github.com/mayankchd/movie-cli#readme",
+  "dependencies": {
+    "chalk": "^1.1.1",
+    "commander": "^2.9.0",
+    "elegant-spinner": "^1.0.1",
+    "es6-promise": "^3.1.2",
+    "isomorphic-fetch": "^2.2.1",
+    "log-update": "^1.0.2"
+  }
+}
