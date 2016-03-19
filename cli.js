@@ -33,11 +33,11 @@ if(program.args.length < 1) {
   process.exit(1);
 }
 
-if(program.args.join().toUpperCase().indexOf('VS') !== -1) {
+if(program.args.join().toUpperCase().indexOf('::') !== -1) {
   var interval1 = setInterval(function() {
   logUpdate("Loading..." + chalk.cyan.bold.dim(frame()));
   }, 50)
-  var movies = program.args.join(" ").toUpperCase().split("VS");
+  var movies = program.args.join(" ").toUpperCase().split("::");
   var urls = movies.map(function(mov) {
     return 'http://www.omdbapi.com/?t='+ mov.trim().replace(/ /g,"+")+'&tomatoes=true'
   });
