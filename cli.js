@@ -65,7 +65,7 @@ else {
 
 function compareInfo(movies) {
   if(movies[0].Response === 'False' || movies[1].Response === 'False') {
-    console.log(chalk.red(movies[0].Error));
+    console.log(chalk.red('Movie not found!'));
     process.exit(1);
   }
   
