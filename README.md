@@ -8,4 +8,4 @@ npm i -g movie-cli
 movie Into The Wild                // For infomation about a movie
 movie Into The Wild :: Wild        // For comparing two movies
 ```
-![SS](http://cl.ly/173t0y3R191n/Screen%20Recording%202016-03-19%20at%2001.33%20PM.gif)
+![SS](http://cl.ly/42171c0A0o0U/Screen%20Recording%202016-03-20%20at%2011.06%20PM.gif)
