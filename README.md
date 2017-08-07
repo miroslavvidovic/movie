@@ -9,3 +9,6 @@ movie Into The Wild                // For infomation about a movie
 movie Into The Wild :: Wild        // For comparing two movies
 ```
 ![SS](http://cl.ly/42171c0A0o0U/Screen%20Recording%202016-03-20%20at%2011.06%20PM.gif)
+
+## Important info
+OMDB API has gone private so this application no longer works. More information [here](https://www.patreon.com/posts/api-is-going-10743518).
